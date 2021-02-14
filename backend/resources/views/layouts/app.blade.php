@@ -67,6 +67,9 @@
                                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                                         @csrf
                                     </form>
+                                    <a class="dropdown-item" href="{{ route('home') }}">ホーム</a>
+                                    <a class="dropdown-item" href="{{ route('input') }}">投稿</a>
+                                    <a class="dropdown-item" href="{{ route('output') }}">投稿一覧</a>
                                 </div>
                             </li>
                         @endguest
